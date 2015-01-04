@@ -10,8 +10,8 @@ public class JoystickLook : MonoBehaviour {
 
 	void FixedUpdate () {
 		rigidbody.AddTorque (Input.GetAxis ("Vertical"), Input.GetAxis ("Horizontal"), 0);
-		float x = rigidbody.angularVelocity.x;
-		float y = rigidbody.angularVelocity.y;
-		rigidbody.angularVelocity.Set (x, y, 0f);
+//		float x = rigidbody.angularVelocity.x;
+//		float y = rigidbody.angularVelocity.y;
+//		rigidbody.angularVelocity.Set (x, y, 0f);
 	}
 }
