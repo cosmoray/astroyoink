@@ -47,9 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ColorObject.cs" />
+     <Compile Include="Assets\Scripts\Flex.cs" />
      <Compile Include="Assets\Scripts\GrabObject.cs" />
      <Compile Include="Assets\Scripts\JoystickLook.cs" />
      <Compile Include="Assets\Scripts\NewHinge.cs" />
+     <Compile Include="Assets\Scripts\UnFlex.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/Cosmo/Design/2014/Z_Games/AstroYoink/Git/astroyoink/AstroYoink/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
