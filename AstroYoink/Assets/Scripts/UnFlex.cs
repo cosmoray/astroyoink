@@ -3,7 +3,6 @@ using System.Collections;
 
 public class UnFlex : MonoBehaviour {
 
-	public float SpringIntensity = 100f;
 	JointLimits limits;
 
 
@@ -17,10 +16,10 @@ public class UnFlex : MonoBehaviour {
 
 		if(Input.GetKeyDown(KeyCode.T))
 		{
-			limits = GetComponent<HingeJoint>().limits;
+			limits = gameObject.GetComponent<HingeJoint>().limits;
 			limits.min = 0f;
 			limits.max = 0f;
-
+			Debug.Log(limits.max);
 			/*
 			JointLimits limits = hingeJoint.limits;
 			limits.min = 0f;
