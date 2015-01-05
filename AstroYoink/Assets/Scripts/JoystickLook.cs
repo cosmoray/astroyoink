@@ -13,5 +13,6 @@ public class JoystickLook : MonoBehaviour {
 		float x = rigidbody.angularVelocity.x;
 		float y = rigidbody.angularVelocity.y;
 		rigidbody.angularVelocity.Set (x, y, 0f);
+
 	}
 }
