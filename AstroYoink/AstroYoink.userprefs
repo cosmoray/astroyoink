@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\JoystickLook.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GrabbyBox.cs">
     <Files>
-      <File FileName="Assets\Scripts\NewHinge.cs" Line="13" Column="3" />
+      <File FileName="Assets\Scripts\NewHinge.cs" Line="13" Column="1" />
       <File FileName="Assets\Scripts\JoystickLook.cs" Line="15" Column="44" />
+      <File FileName="Assets\Scripts\GrabbyBox.cs" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

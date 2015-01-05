@@ -3,11 +3,13 @@ using System.Collections;
 
 public class GrabbyBox : MonoBehaviour {
 
-	GameObject grabbableThing;
+	public GameObject grabbableThing;
 
 	void OnTriggerEnter(Collider other){
-		if (grabbableThing.tag == "Grabbable")
-			grabbableThing = other.gameObject;
+		if (grabbableThing){
+			if (grabbableThing.tag == "Grabbable")
+				grabbableThing = other.gameObject;
+		}
 	}
 	void OnTriggerExit(Collider other){
 		grabbableThing = null;
